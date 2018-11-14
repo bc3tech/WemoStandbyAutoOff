@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemoStandbyAutoOff", "WemoStandbyAutoOff\WemoStandbyAutoOff.csproj", "{41A6F0E2-88CB-459B-8578-F31279A6CE9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WemoStandbyAutoOff", "WemoStandbyAutoOff\WemoStandbyAutoOff.csproj", "{41A6F0E2-88CB-459B-8578-F31279A6CE9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C17ADFF6-561F-49C6-B87C-A50DF5EEEDD7}"
+	ProjectSection(SolutionItems) = preProject
+		azuredeploy.json = azuredeploy.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
